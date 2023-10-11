@@ -3,22 +3,28 @@ body {
     display: flex;
 }
 
+button {
+    padding: 5px;
+    background: gold;
+}
+
 .content  {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     padding: 50px;
+    margin: 150px 25px;
+    background: whitesmoke;
 }
 
 .grid {
     display: flex;
-    /* gap: 5px; */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-shrink: 0;
-    /* flex-basis: 1/16 * 100; */
     
     min-width: 720px;
     max-width: 720px;
@@ -26,8 +32,6 @@ body {
 }
 
 .grid-div {
-    /* width: 50px;
-    height: 50px; */
     flex-shrink: 0;
     background-color: white;
 }
